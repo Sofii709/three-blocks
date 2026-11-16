@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сортування за кольорами</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="status-heading">Перетягніть елементи у відповідні кошики</h1>
+
+    <div id="items-container" class="items-box">
+        <div class="item red" draggable="true" data-color="red" id="item-1"></div>
+        <div class="item blue" draggable="true" data-color="blue" id="item-2"></div>
+        <div class="item green" draggable="true" data-color="green" id="item-3"></div>
+        <div class="item green" draggable="true" data-color="green" id="item-4"></div>
+        <div class="item red" draggable="true" data-color="red" id="item-5"></div>
+        <div class="item blue" draggable="true" data-color="blue" id="item-6"></div>
+    </div>
+
+    <div class="baskets-container">
+        <div class="basket red-basket" data-color="red">
+            <h3>Червоний кошик</h3>
+            <div class="basket-content"></div>
+        </div>
+
+        <div class="basket green-basket" data-color="green">
+            <h3>Зелений кошик</h3>
+            <div class="basket-content"></div>
+        </div>
+
+        <div class="basket blue-basket" data-color="blue">
+            <h3>Синій кошик</h3>
+            <div class="basket-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
